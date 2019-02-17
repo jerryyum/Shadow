@@ -43,6 +43,7 @@
     shapeView.tag = kTag;
     [self.view addSubview:shapeView];
     
+    // 对于UIImageView，无法对图片切圆角，只能使用ShapeView
     // shadowView
     UIView *shadowView = [[UIView alloc] init];
     shadowView.frame = CGRectMake(0, 0, 100, 100);
